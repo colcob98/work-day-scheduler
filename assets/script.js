@@ -57,13 +57,3 @@ $(function () {
     var currentDate = dayjs().format('dddd, MMMM DD, YYYY');
     $('#currentDay').text(currentDate);
   });
-
-function numAvg (array) {
-    var total = 0;
-    for (var i = 0; i < array.length; i++) {
-        total += array[i]
-    }
-    return total / array.length;
-}
-
-console.log(numAvg(1, 4, 7));
